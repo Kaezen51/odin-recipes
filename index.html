@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
     <style>
+        body {
+            background-image: url("recipes/img/background.jpg");
+            background-size: cover;
+        }
         nav {
             display: grid;
             justify-content: start;
@@ -18,10 +22,53 @@
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-weight: 500;
             text-decoration: none;
+            color: brown;
         }
         a:hover {
             color: rgb(144, 108, 16);
             text-decoration: underline;
+        }
+        a:active {
+            color: brown;
+        }
+        a:visited {
+            color: brown;
+        }
+        .content-wrapper img {
+            max-width: 550px;
+            max-height: 650px;
+            width: 200px;
+            height: 200px;
+            border: 2px solid yellow;
+            padding: 5px;
+            
+        }
+        .content-wrapper {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-items: center;
+            align-items: center;
+            border: 5px solid lightcoral;
+            padding: 20px 0;
+            background-color: lightcyan;
+            box-shadow: 5px 2px black;
+        }
+        h2 {
+            width: 100%;
+            margin-bottom: 0;
+            color: bisque;
+            background-color: brown;
+            padding-left: 20px;
+            
+            
+        }
+        h1 {
+            margin: 50px auto;
+            width: 100%;
+            color: bisque;
+            background-color: brown;
+            text-align: center;
         }
     </style>
 </head>
@@ -34,5 +81,13 @@
         </div>
     </nav>
     <header><h1>Odin Recipes</h1></header>
+    <main>
+        <h2>Chinese Dishes</h2>
+        <div class="content-wrapper">
+            <img src="recipes/img/kungpao.jpg" alt="kung pao chicken">
+            <img src="recipes/img/orange-chicken.jpg" alt="orange chicken">
+            <img src="recipes/img/greenbean-chickenjpg" alt="green bean chicken">
+        </div>
+    </main>
 </body>
 </html>
