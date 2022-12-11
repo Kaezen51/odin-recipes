@@ -1,0 +1,55 @@
+
+nav {
+  margin-bottom: 3rem;
+}
+ol li {
+  margin-bottom: 1rem;
+}
+figure {
+  display: table;
+  margin-bottom: 5rem;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+}
+
+a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: brown;
+}
+
+a:hover {
+  color: rgb(144, 108, 16);
+  text-decoration: underline;
+}
+
+a:visited {
+  color: brown;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: brown;
+  color: bisque;
+}
+
+h2, h3 {
+    width: 100%;
+    margin-bottom: 0;
+    color: bisque;
+    background-color: brown;
+    padding-left: 20px;
+}
+.main-img {
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+}
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
