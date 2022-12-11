@@ -6,10 +6,10 @@ body {
     margin: 0;
 }
 nav {
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 .navbar {
-    padding:0 0 10px 5px;
+    padding: 10px 5px;
     background-color: bisque;
 }
 ol li {
